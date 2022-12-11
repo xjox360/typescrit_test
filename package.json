@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start":"node index.js"
+    "start": "node built/tsc.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "foo"
   },
   "author": "jg",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "typescript": "^4.9.4"
+  }
 }
