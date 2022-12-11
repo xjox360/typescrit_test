@@ -1,0 +1,16 @@
+{
+  "name": "osf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "foo"
+  },
+  "author": "jg",
+  "license": "ISC"
+}
